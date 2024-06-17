@@ -1,5 +1,7 @@
 # Contrastive-learning-for-paper-submission
 This repository contains all codes of my project.
+Applied QLora to reduce the parameters of the RoBERTa model, enabling faster fine-tuning of the pre-trained language model while saving computational resources
+Using Contrastive Learning to Improve Word Representation which is input of encoder.
 # Implementation descriptions
 1. Preprocessing.ipynb: describes preprocessing techniques that we used to clean data
 2. Att ModelForCL.ipynb: qlora, fine-tuning the pre-trained language model by contrastive learning method
